@@ -1,6 +1,6 @@
 const { Joi, celebrate } = require('celebrate');
-const { isMail } = require('../utils/constants');
 const validator = require('validator');
+const { isMail } = require('../utils/constants');
 
 // sign up validation
 const validateSignUp = celebrate({
